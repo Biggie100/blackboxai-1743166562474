@@ -1,0 +1,19 @@
+# Question Marker 3D Model
+mtllib question_marker.mtl
+o QuestionMarker
+
+v 0.0 0.0 0.0
+v 0.5 0.0 0.0
+v 0.5 0.5 0.0
+v 0.0 0.5 0.0
+v 0.25 0.25 0.5
+
+vn 0.0 0.0 1.0
+vn 0.0 0.0 -1.0
+
+usemtl QuestionMaterial
+f 1 2 3 4
+f 5 1 4
+f 5 4 3
+f 5 3 2
+f 5 2 1
